@@ -1,18 +1,46 @@
-<h1>Snake Game</h1>
-Remember the iconic Snake game from the late '70s? Well, I’ve just recreated it using JavaScript and HTML! 🕹️
+# Snake Game
 
-🍎 Objective: Navigate the snake to eat as many apples as possible without hitting the walls or its own body.
+A simple browser-based Snake game built with vanilla JavaScript and the HTML canvas.
 
-🔥 Features:
+## About
 
-Canvas Magic: I used the HTML <canvas> element to draw the game board. The snake moves within this canvas.
-Snake Movement: The snake automatically glides across the screen, and players can change its direction using arrow keys.
-Growing Snake: Every time the snake devours an apple, it grows longer.
-Game Over: The game ends if the snake collides with the walls or itself.
-🚀 Tech Stack: JavaScript, HTML, and CSS.
+Control the snake, eat food, and grow as long as possible. The game runs in a loop and updates at a fixed speed.
 
-Feel free to play it here and let me know what you think! 🎉
+## Features
 
+- Canvas-based game board
+- Keyboard controls using arrow keys
+- Snake grows after eating food
+- Screen wrap-around at edges
+- Snake resets length on self-collision
 
-https://github.com/chrishmika/Snake-Game/assets/113049278/9b096257-12f6-499d-8c0c-d1e55ab46658
+## Tech Stack
 
+- HTML
+- JavaScript
+
+## How to Run
+
+1. Clone or download this repository.
+2. Open `index.html` in your browser.
+
+No build tools or dependencies are required.
+
+## Controls
+
+- Left Arrow: Move left
+- Up Arrow: Move up
+- Right Arrow: Move right
+- Down Arrow: Move down
+
+## Project Structure
+
+- `index.html` - Game page and canvas element
+- `script.js` - Core game logic (movement, collision, food, rendering)
+
+## Future Improvements (Optional)
+
+- Add score display
+- Add restart button
+- Add start screen and game over screen
+- Add mobile touch controls
